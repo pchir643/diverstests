@@ -15,6 +15,10 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+gem 'money-rails'
+gem 'faker'
+gem 'pagy', '~> 0.8.1'
+gem 'bootstrap', '~> 4.4.1'
 
 group :development do
   gem 'web-console', '>= 3.3.0'

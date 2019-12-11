@@ -1,0 +1,21 @@
+.card-title {
+    margin-bottom: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 50px;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(220, 220, 220);
+}

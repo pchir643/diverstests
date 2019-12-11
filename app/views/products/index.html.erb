@@ -1,0 +1,20 @@
+<div class="container">
+  <h1>Produits</h1>
+  <div class="row">
+    <table>
+    <tr>
+      <th>Nom</th>
+      <th>Categorie</th>
+      <th>Fonction</th>
+    </tr>
+    <% @products.each do |product| %>
+    <tr>
+      <td> <p class="card-title"><%= product.name %></p> </td>
+      <td> <p class="card-text"><%= product.category.name %></p> </td>
+      <td> <%= link_to "", product_path(product), class:"fas fa-edit" %> </td>
+    </tr>
+    <% end %>
+    </table>
+  </div>
+  <%== pagy_nav(@pagy) %>
+</div>
